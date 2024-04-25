@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#gameGrid{
+    display: grid;
+    height: 800px ;
+    background-color: rgba(124, 177, 159, 0.786);
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+}
+
+.box{
+border: 0.1px rgba(255, 255, 255, 0.553) dashed;
+border-bottom: 0px;
+border-right: 0px;
+width: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.player, .rocks, .treasure{
+    width: 40px;
+}
