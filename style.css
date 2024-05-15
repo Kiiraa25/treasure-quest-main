@@ -6,6 +6,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(
+        10deg,
+        red,
+        blue
+    );
 }
 
 #gameGrid{
@@ -14,6 +19,7 @@ body{
     background-color: rgba(124, 177, 159, 0.786);
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: repeat(20, 1fr);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .box{
